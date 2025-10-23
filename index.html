@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#technicalskills">Technical Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <h2 id="heading">About Me</h2>
+        <section id="about">
+
+            <div class="left-section">
+                <p>Hello! My name is <span class="purple">Kirti Saini.</span> I am a <span class="purple">Web
+                        Development Student.</span><br>I enjoy designing creative websites and
+                    bringing ideas to life with code.</p>
+            </div>
+            <div class="right-section">
+                <img src="pfp.jpeg" alt="Profile Picture" width="230" height="230">
+            </div>
+        </section>
+
+        <section id="projects"></section>
+        <h2 id="heading">My Projects</h2>
+        <div class="projects">
+            <ul>
+                <li><b>Portfolio website:</b> A personal one page website to showcase your bio,skills and contact
+                    details.
+                </li>
+                <li><b>Birthday Invitation:</b> A simple and colorful birthday invitation webpage.</li>
+                <li><b>Recipe Page:</b> A webpage displaying a recipe for a delicious chocolate sponge cake.</li><br>
+            </ul>
+        </div>
+
+
+        <section id="technicalskills"></section>
+        <h2 id="heading">Technical Skills</h2>
+        <div class="table-container">
+        <table border="1" cellspacing="0" cellpadding="0">
+            <tr>
+                <th>Skill</th>
+                <th>Level</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Learning</td>
+            </tr>
+        </table>
+        </div><br><br>
+
+        <section id="contact"></section>
+        <h2 id="heading">Contact Me</h2>
+        <div class="form-container">
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="30" ></textarea><br>
+            <button type="submit">Submit</button><br>
+        </form>
+        </div>
+    <aside>
+        <a href="#"><button class="top-button">Back to Top</button></a>
+    </aside>
+    </main><br><br>
+
+    <footer>
+        <p>&copy; 2025 Kirti Saini</p>
+    </footer>
+
+    </main>
+</body>
+
+</html>

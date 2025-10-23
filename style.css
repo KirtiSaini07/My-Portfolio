@@ -1,0 +1,176 @@
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(1, 1, 65);
+    color: white;
+}
+
+main {
+    margin: 95px 30px 20px 30px;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 98%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 41, 0.582);
+    padding: 10px 20px;
+}
+
+#heading {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+}
+
+.left {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.right {
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: rgb(160, 0, 163);
+    font-size: 20px;
+}
+
+#about {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+
+.first-section div {
+    width: 100%;
+}
+
+.left-section {
+    font-size: 25px;
+    width: 50%;
+}
+
+.right-section {
+    transition: all 0.3s ease;
+    height: fit-content;
+}
+
+.right-section img {
+    width: 300px;
+    border: 3px solid rgb(163, 0, 163);
+    box-shadow: 0 0 20px rgba(163, 0, 163, 0.5);
+    transition: all 0.3s ease;
+}
+.right-section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(163, 0, 163, 0.8);
+}
+
+.purple {
+    color: rgb(163, 0, 163);
+}
+
+.projects {
+    display: flex;
+    font-size: 22px;
+    width: 100%;
+}
+
+.table-container {
+    display: flex;
+    font-size: 22px;
+    width: 100%;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+table,
+th {
+    background-color: rgba(8, 0, 120, 0.79);
+}
+
+table,
+td {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: rgb(52, 0, 182);
+}
+
+.form-container form {
+    width: 50%;
+}
+
+form input,
+.form-container form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: rgb(52, 0, 182);
+    color: white;
+}
+
+form button {
+    background-color: rgba(63, 29, 255, 0.68);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(0, 0, 132);
+}
+
+aside {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+
+aside .top-button {
+    background-color: rgba(63, 29, 255, 0.84);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+aside .top-button:hover {
+    background-color: rgba(0, 0, 132, 0.877);
+}
+</style>
